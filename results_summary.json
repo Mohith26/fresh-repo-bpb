@@ -1,0 +1,60 @@
+{
+ "configs": [
+  {
+   "model": "Qwen2.5-Coder-0.5B",
+   "protocol": "iso-2048",
+   "bpb": {
+    "anydoc": 0.5338649329537869,
+    "codex-sec": 0.6262129201333597,
+    "grok-build": 0.5386603067668528,
+    "json-render": 0.5228253569820834,
+    "openworker": 0.5606339173874259,
+    "scriptc": 0.5957419972307569
+   }
+  },
+  {
+   "model": "Qwen2.5-Coder-0.5B",
+   "protocol": "iso-512",
+   "bpb": {
+    "anydoc": 0.5710424901066005,
+    "codex-sec": 0.6862953979866063,
+    "grok-build": 0.5946710810740709,
+    "json-render": 0.5890169085370875,
+    "openworker": 0.6299824563248031,
+    "scriptc": 0.6439826272954058
+   }
+  },
+  {
+   "model": "Qwen2.5-Coder-0.5B",
+   "protocol": "xfile-1024",
+   "bpb": {
+    "anydoc": 0.5321793735955833,
+    "codex-sec": 0.6118529805335458,
+    "grok-build": 0.5411078450992397,
+    "json-render": 0.5089264579835197,
+    "openworker": 0.5508770541908047,
+    "scriptc": 0.5971922833905983
+   }
+  },
+  {
+   "model": "Qwen2.5-Coder-1.5B",
+   "protocol": "iso-2048",
+   "bpb": {
+    "anydoc": 0.47382815014404295,
+    "codex-sec": 0.5653285354662634,
+    "grok-build": 0.4793914295112764,
+    "json-render": 0.47614286848107273,
+    "openworker": 0.5036749934914494,
+    "scriptc": 0.5231662152093018
+   }
+  }
+ ],
+ "repos": [
+  "anydoc",
+  "codex-sec",
+  "grok-build",
+  "json-render",
+  "openworker",
+  "scriptc"
+ ]
+}
